@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffb300">
+
+    <TextView
+        android:id="@+id/sun"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:minHeight="35dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:text="DAY"
+        android:textColor="@color/customCalendarColorText"
+        android:textStyle="bold" />
+
+</LinearLayout>
